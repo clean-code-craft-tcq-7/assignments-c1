@@ -1,6 +1,6 @@
-# Extend with a feature
+# Extend with new features
 
-Try _any one_ of these extensions on your code.
+Implement these extensions on your code.
 Mention the extension(s) you select in your `README.md` file.
 
 ## Extension 1: Early Warning
@@ -25,12 +25,6 @@ Use [Google translate](https://translate.google.com/?sl=en&tl=de&op=translate)
 if you aren't familiar with German.
 
 Keep in mind: We could add more languages in future. Minimize the code-change required.
-
-## Extension 3: Accept input in different units
-
-Some sensors report the temperature in Celcius.
-Make provision to express the unit along with the measurement.
-Avoid repeating the limits in different units.
 
 ## The starting point
 
