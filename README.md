@@ -8,6 +8,8 @@ This is an experiential learning experience - Concepts with live coding sessions
 1. Live coding session
 1. Enhance on your own
 
+[Course transcripts](transcripts.md)
+
 ## Try It
 
 [Paradigms to tackle complexity](paradigms.md)
