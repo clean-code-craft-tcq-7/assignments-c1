@@ -1,6 +1,6 @@
 # Course transcripts
 
-Crafting code that is easy to and maintain.
+This page contains the concepts covered in the exercises
 
 ## Purpose
 
