@@ -1,6 +1,6 @@
 # Course transcripts
 
-This page contains the concepts covered in the exercises
+This page covers the concepts covered in the exercises
 
 ## Purpose
 
