@@ -12,6 +12,8 @@ This is an experiential learning experience - Concepts with live coding sessions
 
 ## Try It
 
+[Fix the false positive](fail.md)
+
 [Paradigms to tackle complexity](paradigms.md)
 
 ## References

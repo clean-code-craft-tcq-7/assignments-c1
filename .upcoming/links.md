@@ -1,7 +1,5 @@
 # Upcoming sessions
 
-[Fail on false positive](fail.md)
-
 [TDD in practice](tdd.md)
 
 [Modularity](small.md)

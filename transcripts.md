@@ -36,3 +36,15 @@ graph LR
     A --> C
     B --> C
 ```
+
+## Tests
+
+Follow the FIRST principles for writing tests:
+
+| Principle | Enables | Benefits |
+|-----------|---------|----------|
+| Fast      | Frequent execution | Find issues early |
+| Independent| Isolation of tests | Easier failure diagnosis |
+| Repeatable | Consistent results | Stable tests, low maintenance |
+| Self-validating| Automatic pass/fail | Reduced manual effort - single Pass/Fail result |
+| Thorough   | Coverage with strong asserts | Passing tests ensure customer satisfaction |
