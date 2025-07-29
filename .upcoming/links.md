@@ -1,7 +1,5 @@
 # Upcoming sessions
 
-[TDD in practice](tdd.md)
-
 [Modularity](small.md)
 
 [Extension-1](extend-refactor-1.md)

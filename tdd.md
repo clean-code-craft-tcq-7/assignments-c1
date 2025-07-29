@@ -1,5 +1,7 @@
 # TDD in practice
 
+This assignment deals with statistics computed from batches of data from an IoT weight-sensor.
+
 ```mermaid
 graph LR
     A[Failing test] --> B[Minimal code]
@@ -11,18 +13,20 @@ graph LR
 ## Specification as tests
 
 This assignment has the specification in tests. Write minimal code to pass those tests.
-Design the data structure and input validation, based on the asserts.
+Implement the data structure and input validation - based on the asserts.
 
-Food for thought: What else can go wrong? Can you think of more tests?
+You could encounter many requests for extending the functionality in future - additional data-sources, statistics to be computed, and actions to be taken.
+
+Tip: Do not over-engineer. Write minimal code _just enough_ to pass the tests.
 
 Pick the assignment in your language. Don't forget to read the README.md.
 
-[C++](https://classroom.github.com/a/wBQWExFa)
+[C++](https://classroom.github.com/a/9S-1-1PC)
 
-[C#](https://classroom.github.com/a/7El3TZD-)
+[C#](https://classroom.github.com/a/3R2HGSjg)
 
-[Java](https://classroom.github.com/a/k7RjbW4c)
+[Java](https://classroom.github.com/a/qn9yGH0w)
 
-[Python](https://classroom.github.com/a/S6F3-QWk)
+[Python](https://classroom.github.com/a/CLntROnm)
 
-[JavaScript](https://classroom.github.com/a/uuqlI8Cx)
+[JavaScript](https://classroom.github.com/a/NP8bEXoL)
