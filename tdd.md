@@ -21,6 +21,8 @@ Tip: Do not over-engineer. Write minimal code _just enough_ to pass the tests.
 
 Pick the assignment in your language. Don't forget to read the README.md.
 
+[C](https://classroom.github.com/a/9_gZlYjp)
+
 [C++](https://classroom.github.com/a/9S-1-1PC)
 
 [C#](https://classroom.github.com/a/3R2HGSjg)
