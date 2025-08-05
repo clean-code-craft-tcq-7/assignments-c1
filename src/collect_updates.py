@@ -9,9 +9,9 @@ GITHUB_API_URL = "https://api.github.com"
 ORG_NAME = "clean-code-craft-tcq-7"
 ACCESS_TOKEN = ""
 SINCE_DATE = ""
+REPO_PREFIX = ""
 
-
-def get_repos_updated_since(org_name, since_date):
+def get_repos_updated_since(org_name, since_date, repo_prefix):
     url = f"{GITHUB_API_URL}/orgs/{org_name}/repos"
     headers = {"Authorization": f"token {ACCESS_TOKEN}"}
     params = {"since": since_date, "per_page": 100}
@@ -23,6 +23,8 @@ def get_repos_updated_since(org_name, since_date):
         repos.extend(response.json())
         url = response.links.get("next", {}).get("url")
 
+    if repo_prefix:
+        repos = [repo for repo in repos if repo["name"].startswith(repo_prefix)]
     return repos
 
 
@@ -56,7 +58,7 @@ def get_repo_details(repo_name):
 
 
 def main():
-    repos = get_repos_updated_since(ORG_NAME, SINCE_DATE)
+    repos = get_repos_updated_since(ORG_NAME, SINCE_DATE, REPO_PREFIX)
     output_data = []
 
     for repo in repos:
@@ -84,4 +86,5 @@ def main():
 if __name__ == "__main__":
     ACCESS_TOKEN = sys.argv[1]
     SINCE_DATE = sys.argv[2]
+    REPO_PREFIX = sys.argv[3]
     main()
