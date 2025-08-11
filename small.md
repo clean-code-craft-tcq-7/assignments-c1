@@ -18,6 +18,8 @@ Consider:
 
 ## Pick a language for your assignment
 
+[C](https://classroom.github.com/a/zmrAaLwk)
+
 [C++](https://classroom.github.com/a/4gIUsU1I)
 
 [C#](https://classroom.github.com/a/SllVsmye)
