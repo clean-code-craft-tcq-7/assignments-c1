@@ -12,6 +12,8 @@ This is an experiential learning experience - Concepts with live coding sessions
 
 ## Try It
 
+[Modularity](small.md)
+
 [TDD in practice](tdd.md)
 
 [Fix the false positive](fail.md)
