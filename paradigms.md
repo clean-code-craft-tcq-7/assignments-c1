@@ -16,7 +16,7 @@ Try a simple assignment to reduce duplication, and achieve semantic distance by 
 
 [C++](https://classroom.github.com/a/fDS-zVHO)
 
-[C#](https://classroom.github.com/a/qkUL-6a1)
+[C#](https://classroom.github.com/a/q1y2e50f)
 
 [Java](https://classroom.github.com/a/5xafDIiw)
 
