@@ -12,6 +12,8 @@ This is an experiential learning experience - Concepts with live coding sessions
 
 ## Try It
 
+[Specification to delivery](cooling-type-alerts.md)
+
 [Extensions 3 & 4](extend-refactor-3-4.md)
 
 [Extensions 1 & 2](extend-refactor-1-2.md)
