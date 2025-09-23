@@ -92,7 +92,7 @@ Here is a sample list of linters, with rules built by language experts:
 | C#        | Resharper / Roslyn Analyzers |
 | Java     | Checkstyle, PMD |
 | JavaScript| ESLint |
-| Python    | Pylint, flake8 |
+| Python    | Pylint, flake8, pylance, ruff |
 
 ## Cycle of value
 
