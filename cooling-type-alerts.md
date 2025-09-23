@@ -21,12 +21,12 @@ Let's try TDD to break down such a context.
 
 ## Pick a language for your assignment
 
-[C](https://classroom.github.com/a/A0qHCg4r)
+[C](https://classroom.github.com/a/HHBUHeMn)
 
-[C#](https://classroom.github.com/a/DdbnRBeZ)
+[C#](https://classroom.github.com/a/hF2_gmdu)
 
 [Java](https://classroom.github.com/a/p_iPvB6J)
 
-[Python](https://classroom.github.com/a/c2TW5Zdz)
+[Python](https://classroom.github.com/a/3pibZY84)
 
 [JavaScript](https://classroom.github.com/a/YsZ24ONa)
