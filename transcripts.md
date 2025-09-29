@@ -51,7 +51,7 @@ Follow the FIRST principles for writing tests:
 
 ## Modularity
 
-Modularity is the practice of breaking down code into smaller pieces. This makes it easier to understand, test, and maintain. 
+Modularity is the practice of breaking down code into smaller pieces. This makes it easier to understand, test, and maintain.
 
 However, cutting code arbitrarily can lead to confusion. Principles that help in a beneficial cut:
 
