@@ -79,10 +79,52 @@ When it isn't possible to isolate with pure functions, inject dependencies.
 Pass in the dependencies as parameters, rather than hardcoding them.
 This makes it easy to mock the dependencies in tests, and to swap them out in production.
 
+## Preventing issues by shifting left
+
+Static analysis and SAST tools can catch common issues while coding, without having to run the code.
+This is known as "shifting left" - catching issues earlier in the development process.
+
+Here is a sample list of linters, with rules built by language experts:
+
+| Language | Linter |
+|-----------|---------|
+| C++ | cpplint, cppcheck |
+| C#        | Resharper / Roslyn Analyzers |
+| Java     | Checkstyle, PMD |
+| JavaScript| ESLint |
+| Python    | Pylint, flake8, pylance, ruff |
+
+## Cycle of value
+
+The cycle of value is a cycle of writing code, testing it, and then refactoring it to improve its quality.
+This cycle keeps the code healthy and easy to maintain.
+It's like brushing your teeth - do it every day to keep your teeth healthy.
+
+```mermaid
+graph TD
+    M["Modularity"] --> T["FIRST tests"]
+    T --> F["Frequent releases"]
+    F --> C["Continuous improvement"]
+    C --> X["Control complexity"]
+    X --> M
+```
+
+## Recognize design principles
+
+The cycle of value usually results in code that follows these principles:
+
+| Principle | Description |
+|-----------|-------------|
+| Single Responsibility Principle | One reason to change |
+| Open/Closed Principle | Add features without having to change existing code |
+| Interface Segregation Principle | Segregate dependencies by "single responsibility" |
+| Dependency Inversion Principle | Depend on abstractions, e.g., by injection |
+
 ## Integration
 
-So you've made the parts decoupled and testable - into functional modules. You have high confidence in them working.
-How can you put them together? Choose your option based on the situation:
+So you've made the parts decoupled and testable - into functional modules. You have high confidence in their working. They are also individually maintainable.
+
+What are the ways to put them together? Choose your option based on the situation:
 
 ### Procedural sequence
 
